@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#nav
+{
+   position: sticky;
+   top: 0%;
+   left: 0%;
+   z-index: 100;
+   padding: .5rem 5rem;
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+   background-color: black;
+}
+.navbar-nav
+{
+    margin-left: 550px;
+}
+
+.container-fluid .navbar-brand
+{
+  font-family: 'Times New Roman', Times, serif;  
+  color: lawngreen !important;  
+}
+#navbarNav a
+{
+    color: white;
+}
+#navbarNav a:hover
+{
+    border-bottom: 1px solid lawngreen;
+}
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 302px;
+
+}
+ section .head2
+ {
+     padding-top: 44px;
+
+ }
+ #home
+{
+  background-image:  url(/Image/fb.webp);  
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  
+}
+.head1
+{
+   margin-left: 422px;
+   font-family: 'Tangerine', cursive;
+   font-size: 130px;
+   font-weight: normal;
+  
+  
+
+}
+.word2
+{
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 12px;   
+
+}
+.head2
+{
+    margin-left: 21px;
+    font-family: 'Tangerine', cursive;
+    font-size: 90px;
+    font-weight: normal;
+
+}
+.word3
+{
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 12px;
+    
+}
+.head3
+{
+
+    margin-left: 730px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+/*.............product...................*/
+
+#products
+{
+   background-color: gainsboro;
+   padding-top: 22px;
+}
+#products img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    
+}
+.card
+{
+    
+    margin: 15px 20px;
+    width: 250px;
+    height: 300px;
+    background-color: gainsboro !important;
+    border: none !important;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .3),
+    inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+
+}
+
+.card:hover
+{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+    inset -4px -4px 10px white;
+    transition: .2s;
+}
+/*.............Contact....................*/
+
+#contact img
+{
+    width: 70%;
+}
+
+/*.........About..............*/
+#about
+{
+   background-color: palevioletred;
+
+  
+}
+#about img
+{
+    width: 80%;
+    height: 80%;
+    margin-top:30px;
+}
+#about h1
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 66px;
+    text-decoration-line: underline;
+
+}

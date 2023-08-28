@@ -1,0 +1,29 @@
+h1
+{
+   text-align: center;
+   font-family: 'Tangerine', cursive; 
+
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.container
+{
+    background-image: url(/Image/login4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    width: 50%;
+    height: 320px;
+}
+.container, .form-label
+{
+    color: white;
+}
+
+.btn a
+{
+   color:  white;
+   text-decoration: none;
+}

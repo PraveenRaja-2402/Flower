@@ -1,0 +1,20 @@
+body
+{
+   background-image: url(/Image/reg.jpg);
+}
+
+
+form
+{
+    background-color: paleturquoise;
+    margin-top: 26px !important; 
+}
+.container h1
+{
+    text-align: center; 
+    color: white;
+    font-family: 'Tangerine', cursive; 
+    font-size: 44px;
+}
+
+
